@@ -1,0 +1,23 @@
+[package]
+name = "satview"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sgp4 = "2.2.0"
+chrono = {version = "0.4.38", default-features = false}
+anyhow = {version = "1.0", default-features = false}
+libm = "0.2.8"
+image = "0.25.2"
+
+[features]
+default = ["alloc", "std"]
+alloc = []
+std = ["alloc", "anyhow/std", "chrono/std"]
+
+[profile.release]
+opt-level = 'z'     # Optimize for size
+lto = true          # Enable link-time optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations
+#panic = 'abort'     # Abort on panic
+strip = true        # Strip symbols from binary*

@@ -1,0 +1,1448 @@
+{
+  "gatewayID": "GS_US_PHX",
+  "beamGridID": null,
+  "terminalID": "Terminal_fb5d3b98-98b7-498d-97a5-4ae36bd596ec",
+  "gatewayBeam": {
+    "beamCenter": {
+      "latitude": 33.563,
+      "longitude": 247.662
+    },
+    "beamContour": null
+  },
+  "handOverRows": {
+    "MP01": [
+      {
+        "endTime": "2024-04-11T01:25:24Z",
+        "startTime": "2024-04-11T00:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-11T07:25:24Z",
+        "startTime": "2024-04-11T06:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-11T13:25:24Z",
+        "startTime": "2024-04-11T12:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T19:25:24Z",
+        "startTime": "2024-04-10T18:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      }
+    ],
+    "MP02": [
+      {
+        "endTime": "2024-04-11T05:25:24Z",
+        "startTime": "2024-04-11T04:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-11T11:25:24Z",
+        "startTime": "2024-04-11T10:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T17:25:24Z",
+        "startTime": "2024-04-10T16:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T23:25:24Z",
+        "startTime": "2024-04-10T22:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      }
+    ],
+    "MP03": [
+      {
+        "endTime": "2024-04-11T04:25:24Z",
+        "startTime": "2024-04-11T03:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-11T10:25:24Z",
+        "startTime": "2024-04-11T09:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T16:25:24Z",
+        "startTime": "2024-04-10T15:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T22:25:24Z",
+        "startTime": "2024-04-10T21:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      }
+    ],
+    "MP04": [
+      {
+        "endTime": "2024-04-11T02:25:24Z",
+        "startTime": "2024-04-11T01:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-11T08:25:24Z",
+        "startTime": "2024-04-11T07:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T14:25:24Z",
+        "startTime": "2024-04-10T13:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T20:25:24Z",
+        "startTime": "2024-04-10T19:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      }
+    ],
+    "MP05": [
+      {
+        "endTime": "2024-04-11T06:25:24Z",
+        "startTime": "2024-04-11T05:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-11T12:25:24Z",
+        "startTime": "2024-04-11T11:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T18:25:24Z",
+        "startTime": "2024-04-10T17:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-11T00:25:24Z",
+        "startTime": "2024-04-10T23:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      }
+    ],
+    "MP06": [
+      {
+        "endTime": "2024-04-11T03:25:24Z",
+        "startTime": "2024-04-11T02:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-11T09:25:24Z",
+        "startTime": "2024-04-11T08:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T15:25:24Z",
+        "startTime": "2024-04-10T14:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      },
+      {
+        "endTime": "2024-04-10T21:25:24Z",
+        "startTime": "2024-04-10T20:24:24Z",
+        "returnCarrier": {
+          "bandwidthMHz": 8.109,
+          "eirpLimitdBm": 49.08967300418388,
+          "eirpNominaldBm": 48.58967300418388,
+          "uplinkPolarization": "RHCP",
+          "downlinkPolarization": "LHCP",
+          "modemOutputPowerLimitdBm": 0,
+          "uplinkCenterFrequencyMHz": 29548.004,
+          "downlinkCenterFrequencyMHz": 18641.804,
+          "modemOutputPowerNominaldBm": null
+        },
+        "forwardCarrier": {
+          "bandwidthMHz": 16.884,
+          "eirpLimitdBm": 60.77475343482371,
+          "eirpNominaldBm": 60.77475343482371,
+          "uplinkPolarization": "LHCP",
+          "downlinkPolarization": "RHCP",
+          "modemOutputPowerLimitdBm": -64.52524656517629,
+          "uplinkCenterFrequencyMHz": 29896.012,
+          "downlinkCenterFrequencyMHz": 17734.852,
+          "modemOutputPowerNominaldBm": -64.52524656517629
+        },
+        "recurrenceType": "RECUR"
+      }
+    ]
+  },
+  "terminalBeam": {
+    "beamCenter": {
+      "latitude": 34.978,
+      "longitude": 253.251
+    },
+    "beamContour": [
+      {
+        "latitude": 34.970284449773295,
+        "longitude": 254.6198383671269
+      },
+      {
+        "latitude": 34.85993547831809,
+        "longitude": 254.61142363094683
+      },
+      {
+        "latitude": 34.750792314741595,
+        "longitude": 254.58996932428562
+      },
+      {
+        "latitude": 34.64389895392299,
+        "longitude": 254.5557313904
+      },
+      {
+        "latitude": 34.54027400138401,
+        "longitude": 254.50908423382302
+      },
+      {
+        "latitude": 34.44090131221382,
+        "longitude": 254.45051549665487
+      },
+      {
+        "latitude": 34.34672107938259,
+        "longitude": 254.3806200070021
+      },
+      {
+        "latitude": 34.25862143399822,
+        "longitude": 254.30009299948512
+      },
+      {
+        "latitude": 34.17743061270096,
+        "longitude": 254.20972270234773
+      },
+      {
+        "latitude": 34.10390974050545,
+        "longitude": 254.11038237920798
+      },
+      {
+        "latitude": 34.03874627102066,
+        "longitude": 254.0030219063721
+      },
+      {
+        "latitude": 33.9825481201037,
+        "longitude": 253.88865895933623
+      },
+      {
+        "latitude": 33.93583852360907,
+        "longitude": 253.76836987495727
+      },
+      {
+        "latitude": 33.89905164493354,
+        "longitude": 253.64328024909315
+      },
+      {
+        "latitude": 33.87252895347743,
+        "longitude": 253.51455532349033
+      },
+      {
+        "latitude": 33.85651639088037,
+        "longitude": 253.38339021050584
+      },
+      {
+        "latitude": 33.851162337886,
+        "longitude": 253.251
+      },
+      {
+        "latitude": 33.85651639088037,
+        "longitude": 253.1186097894942
+      },
+      {
+        "latitude": 33.87252895347743,
+        "longitude": 252.9874446765097
+      },
+      {
+        "latitude": 33.89905164493354,
+        "longitude": 252.85871975090686
+      },
+      {
+        "latitude": 33.93583852360907,
+        "longitude": 252.73363012504274
+      },
+      {
+        "latitude": 33.9825481201037,
+        "longitude": 252.61334104066373
+      },
+      {
+        "latitude": 34.03874627102066,
+        "longitude": 252.4989780936279
+      },
+      {
+        "latitude": 34.10390974050545,
+        "longitude": 252.39161762079203
+      },
+      {
+        "latitude": 34.177430612700945,
+        "longitude": 252.29227729765222
+      },
+      {
+        "latitude": 34.25862143399822,
+        "longitude": 252.20190700051492
+      },
+      {
+        "latitude": 34.34672107938259,
+        "longitude": 252.1213799929979
+      },
+      {
+        "latitude": 34.44090131221382,
+        "longitude": 252.05148450334514
+      },
+      {
+        "latitude": 34.540274001384006,
+        "longitude": 251.992915766177
+      },
+      {
+        "latitude": 34.64389895392299,
+        "longitude": 251.94626860960003
+      },
+      {
+        "latitude": 34.750792314741595,
+        "longitude": 251.9120306757144
+      },
+      {
+        "latitude": 34.85993547831809,
+        "longitude": 251.89057636905318
+      },
+      {
+        "latitude": 34.970284449773295,
+        "longitude": 251.8821616328731
+      },
+      {
+        "latitude": 35.08077958501943,
+        "longitude": 251.8869196569393
+      },
+      {
+        "latitude": 35.19035563162608,
+        "longitude": 251.9048576219309
+      },
+      {
+        "latitude": 35.29795198389657,
+        "longitude": 251.93585458424246
+      },
+      {
+        "latitude": 35.40252305761538,
+        "longitude": 251.97966060022296
+      },
+      {
+        "latitude": 35.50304868229189,
+        "longitude": 252.03589718029366
+      },
+      {
+        "latitude": 35.59854440180926,
+        "longitude": 252.104059150558
+      },
+      {
+        "latitude": 35.68807156855323,
+        "longitude": 252.18351798228025
+      },
+      {
+        "latitude": 35.770747111718926,
+        "longitude": 252.2735266279802
+      },
+      {
+        "latitude": 35.84575285795365,
+        "longitude": 252.3732258771507
+      },
+      {
+        "latitude": 35.91234428214382,
+        "longitude": 252.4816522152929
+      },
+      {
+        "latitude": 35.96985856829469,
+        "longitude": 252.597747137898
+      },
+      {
+        "latitude": 36.01772186530999,
+        "longitude": 252.72036783725696
+      },
+      {
+        "latitude": 36.05545563017976,
+        "longitude": 252.84829914583435
+      },
+      {
+        "latitude": 36.08268196163567,
+        "longitude": 252.98026658683028
+      },
+      {
+        "latitude": 36.099127840608766,
+        "longitude": 253.11495035197294
+      },
+      {
+        "latitude": 36.104628209564915,
+        "longitude": 253.251
+      },
+      {
+        "latitude": 36.099127840608766,
+        "longitude": 253.3870496480271
+      },
+      {
+        "latitude": 36.082681961635664,
+        "longitude": 253.52173341316973
+      },
+      {
+        "latitude": 36.05545563017976,
+        "longitude": 253.6537008541656
+      },
+      {
+        "latitude": 36.01772186531,
+        "longitude": 253.78163216274305
+      },
+      {
+        "latitude": 35.96985856829469,
+        "longitude": 253.90425286210203
+      },
+      {
+        "latitude": 35.91234428214382,
+        "longitude": 254.0203477847071
+      },
+      {
+        "latitude": 35.84575285795365,
+        "longitude": 254.1287741228493
+      },
+      {
+        "latitude": 35.770747111718926,
+        "longitude": 254.22847337201978
+      },
+      {
+        "latitude": 35.68807156855323,
+        "longitude": 254.3184820177197
+      },
+      {
+        "latitude": 35.59854440180926,
+        "longitude": 254.39794084944197
+      },
+      {
+        "latitude": 35.503048682291904,
+        "longitude": 254.46610281970635
+      },
+      {
+        "latitude": 35.40252305761538,
+        "longitude": 254.52233939977705
+      },
+      {
+        "latitude": 35.29795198389656,
+        "longitude": 254.56614541575757
+      },
+      {
+        "latitude": 35.19035563162609,
+        "longitude": 254.59714237806907
+      },
+      {
+        "latitude": 35.08077958501943,
+        "longitude": 254.6150803430607
+      },
+      {
+        "latitude": 34.970284449773295,
+        "longitude": 254.6198383671269
+      }
+    ]
+  },
+  "terminalName": "CTM-ALB-00001_Terminal",
+  "effectivityTime": "2024-04-10T13:16:46.306061Z",
+  "linkBudgetSummary": {
+    "returnLink": {
+      "modcods": [
+        {
+          "name": "QPSK 4/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 5.5,
+          "spectralEfficiencyBitSymbol": 1.549426116
+        },
+        {
+          "name": "QPSK 3/4_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 4.6,
+          "spectralEfficiencyBitSymbol": 1.452076197
+        },
+        {
+          "name": "64APSK 11/15_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 15.9,
+          "spectralEfficiencyBitSymbol": 4.240531323
+        },
+        {
+          "name": "64APSK 5/6_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 17.6,
+          "spectralEfficiencyBitSymbol": 4.824986537
+        },
+        {
+          "name": "16APSK 5/6_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 13.1,
+          "spectralEfficiencyBitSymbol": 3.10351377
+        },
+        {
+          "name": "16APSK 4/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 12.5,
+          "spectralEfficiencyBitSymbol": 3.090495026
+        },
+        {
+          "name": "64APSK 32/45-L_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 15.4,
+          "spectralEfficiencyBitSymbol": 4.111290612
+        },
+        {
+          "name": "16APSK 8/9_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 13.6,
+          "spectralEfficiencyBitSymbol": 3.439530145
+        },
+        {
+          "name": "QPSK 4/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 5.3,
+          "spectralEfficiencyBitSymbol": 1.475746714
+        },
+        {
+          "name": "16APSK 4/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 12.5,
+          "spectralEfficiencyBitSymbol": 2.932573599
+        },
+        {
+          "name": "32APSK 4/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 14.4,
+          "spectralEfficiencyBitSymbol": 3.630805409
+        },
+        {
+          "name": "QPSK 1/2_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 1.7,
+          "spectralEfficiencyBitSymbol": 0.830585424
+        },
+        {
+          "name": "128APSK 3/4_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 18.2,
+          "spectralEfficiencyBitSymbol": 5.053115851
+        },
+        {
+          "name": "64APSK 7/9_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 16.4,
+          "spectralEfficiencyBitSymbol": 4.499012745
+        },
+        {
+          "name": "8PSK 8/9_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 11.6,
+          "spectralEfficiencyBitSymbol": 2.528045731
+        },
+        {
+          "name": "GSM_QPSK 1/3_S2|ON|N_[GetSatMicro]",
+          "esn0dB": -0.7,
+          "spectralEfficiencyBitSymbol": 0.640826873
+        },
+        {
+          "name": "8PSK 2/3_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 7.4,
+          "spectralEfficiencyBitSymbol": 1.935658286
+        },
+        {
+          "name": "QPSK 2/3_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 4,
+          "spectralEfficiencyBitSymbol": 1.290787813
+        },
+        {
+          "name": "8PSK 5/6_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 10,
+          "spectralEfficiencyBitSymbol": 2.422276291
+        },
+        {
+          "name": "16APSK 5/6_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 13.1,
+          "spectralEfficiencyBitSymbol": 3.221862639
+        },
+        {
+          "name": "QPSK 2/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 0.5,
+          "spectralEfficiencyBitSymbol": 0.770626765
+        },
+        {
+          "name": "8PSK 3/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 6.7,
+          "spectralEfficiencyBitSymbol": 1.739569253
+        },
+        {
+          "name": "QPSK 3/4_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 4.8,
+          "spectralEfficiencyBitSymbol": 1.389725209
+        },
+        {
+          "name": "16APSK 3/4_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 11.8,
+          "spectralEfficiencyBitSymbol": 2.896320268
+        },
+        {
+          "name": "QPSK 1/4_S2|ON|S_[GetSatMicro]",
+          "esn0dB": -1.7,
+          "spectralEfficiencyBitSymbol": 0.357467145
+        },
+        {
+          "name": "QPSK 2/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 0.5,
+          "spectralEfficiencyBitSymbol": 0.744563919
+        },
+        {
+          "name": "QPSK 11/20_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 2.3,
+          "spectralEfficiencyBitSymbol": 1.062676522
+        },
+        {
+          "name": "QPSK 1/2_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 1.5,
+          "spectralEfficiencyBitSymbol": 0.965326603
+        },
+        {
+          "name": "8PSK 8/9_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 11.2,
+          "spectralEfficiencyBitSymbol": 2.585924124
+        },
+        {
+          "name": "8PSK 3/4_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 8.8,
+          "spectralEfficiencyBitSymbol": 2.177525457
+        },
+        {
+          "name": "8PSK 2/3_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 8,
+          "spectralEfficiencyBitSymbol": 1.884958914
+        },
+        {
+          "name": "16APSK 3/4_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 12,
+          "spectralEfficiencyBitSymbol": 2.761633428
+        },
+        {
+          "name": "16APSK 8/9_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 13.9,
+          "spectralEfficiencyBitSymbol": 3.359924027
+        },
+        {
+          "name": "32APSK 5/6_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 14.9,
+          "spectralEfficiencyBitSymbol": 4.030589294
+        },
+        {
+          "name": "64APSK 4/5_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 17,
+          "spectralEfficiencyBitSymbol": 4.628253455
+        },
+        {
+          "name": "QPSK 1/4_S2|ON|N_[GetSatMicro]",
+          "esn0dB": -2,
+          "spectralEfficiencyBitSymbol": 0.478577009
+        },
+        {
+          "name": "8PSK 3/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 6.5,
+          "spectralEfficiencyBitSymbol": 1.692032869
+        },
+        {
+          "name": "QPSK 2/3_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 3.7,
+          "spectralEfficiencyBitSymbol": 1.260692951
+        },
+        {
+          "name": "8PSK 3/4_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 9,
+          "spectralEfficiencyBitSymbol": 2.077884959
+        },
+        {
+          "name": "32APSK 8/9_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 16.7,
+          "spectralEfficiencyBitSymbol": 4.159905938
+        },
+        {
+          "name": "32APSK 4/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 14.1,
+          "spectralEfficiencyBitSymbol": 3.866246814
+        },
+        {
+          "name": "QPSK 13/45_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": -0.9,
+          "spectralEfficiencyBitSymbol": 0.554293612
+        },
+        {
+          "name": "8PSK 5/6_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 10.3,
+          "spectralEfficiencyBitSymbol": 2.335119686
+        },
+        {
+          "name": "QPSK 5/6_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 6,
+          "spectralEfficiencyBitSymbol": 1.615287543
+        },
+        {
+          "name": "QPSK 3/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 3,
+          "spectralEfficiencyBitSymbol": 1.131660693
+        },
+        {
+          "name": "QPSK 9/20_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 0.8,
+          "spectralEfficiencyBitSymbol": 0.867976684
+        },
+        {
+          "name": "32APSK 5/6_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 15.3,
+          "spectralEfficiencyBitSymbol": 3.84244562
+        },
+        {
+          "name": "QPSK 5/6_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 5.9,
+          "spectralEfficiencyBitSymbol": 1.56176822
+        },
+        {
+          "name": "QPSK 1/3_S2|ON|S_[GetSatMicro]",
+          "esn0dB": -0.5,
+          "spectralEfficiencyBitSymbol": 0.615531661
+        }
+      ],
+      "rollOff": 1.05
+    },
+    "forwardLink": {
+      "modcods": [
+        {
+          "name": "QPSK 4/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 5.5,
+          "spectralEfficiencyBitSymbol": 1.549426116
+        },
+        {
+          "name": "QPSK 3/4_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 4.6,
+          "spectralEfficiencyBitSymbol": 1.452076197
+        },
+        {
+          "name": "64APSK 11/15_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 15.9,
+          "spectralEfficiencyBitSymbol": 4.240531323
+        },
+        {
+          "name": "64APSK 5/6_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 17.6,
+          "spectralEfficiencyBitSymbol": 4.824986537
+        },
+        {
+          "name": "16APSK 5/6_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 13.1,
+          "spectralEfficiencyBitSymbol": 3.10351377
+        },
+        {
+          "name": "16APSK 4/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 12.5,
+          "spectralEfficiencyBitSymbol": 3.090495026
+        },
+        {
+          "name": "64APSK 32/45-L_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 15.4,
+          "spectralEfficiencyBitSymbol": 4.111290612
+        },
+        {
+          "name": "16APSK 8/9_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 13.6,
+          "spectralEfficiencyBitSymbol": 3.439530145
+        },
+        {
+          "name": "QPSK 4/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 5.3,
+          "spectralEfficiencyBitSymbol": 1.475746714
+        },
+        {
+          "name": "16APSK 4/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 12.5,
+          "spectralEfficiencyBitSymbol": 2.932573599
+        },
+        {
+          "name": "32APSK 4/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 14.4,
+          "spectralEfficiencyBitSymbol": 3.630805409
+        },
+        {
+          "name": "QPSK 1/2_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 1.7,
+          "spectralEfficiencyBitSymbol": 0.830585424
+        },
+        {
+          "name": "128APSK 3/4_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 18.2,
+          "spectralEfficiencyBitSymbol": 5.053115851
+        },
+        {
+          "name": "64APSK 7/9_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 16.4,
+          "spectralEfficiencyBitSymbol": 4.499012745
+        },
+        {
+          "name": "8PSK 8/9_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 11.6,
+          "spectralEfficiencyBitSymbol": 2.528045731
+        },
+        {
+          "name": "GSM_QPSK 1/3_S2|ON|N_[GetSatMicro]",
+          "esn0dB": -0.7,
+          "spectralEfficiencyBitSymbol": 0.640826873
+        },
+        {
+          "name": "8PSK 2/3_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 7.4,
+          "spectralEfficiencyBitSymbol": 1.935658286
+        },
+        {
+          "name": "QPSK 2/3_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 4,
+          "spectralEfficiencyBitSymbol": 1.290787813
+        },
+        {
+          "name": "8PSK 5/6_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 10,
+          "spectralEfficiencyBitSymbol": 2.422276291
+        },
+        {
+          "name": "16APSK 5/6_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 13.1,
+          "spectralEfficiencyBitSymbol": 3.221862639
+        },
+        {
+          "name": "QPSK 2/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 0.5,
+          "spectralEfficiencyBitSymbol": 0.770626765
+        },
+        {
+          "name": "8PSK 3/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 6.7,
+          "spectralEfficiencyBitSymbol": 1.739569253
+        },
+        {
+          "name": "QPSK 3/4_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 4.8,
+          "spectralEfficiencyBitSymbol": 1.389725209
+        },
+        {
+          "name": "16APSK 3/4_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 11.8,
+          "spectralEfficiencyBitSymbol": 2.896320268
+        },
+        {
+          "name": "QPSK 1/4_S2|ON|S_[GetSatMicro]",
+          "esn0dB": -1.7,
+          "spectralEfficiencyBitSymbol": 0.357467145
+        },
+        {
+          "name": "QPSK 2/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 0.5,
+          "spectralEfficiencyBitSymbol": 0.744563919
+        },
+        {
+          "name": "QPSK 11/20_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 2.3,
+          "spectralEfficiencyBitSymbol": 1.062676522
+        },
+        {
+          "name": "QPSK 1/2_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 1.5,
+          "spectralEfficiencyBitSymbol": 0.965326603
+        },
+        {
+          "name": "8PSK 8/9_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 11.2,
+          "spectralEfficiencyBitSymbol": 2.585924124
+        },
+        {
+          "name": "8PSK 3/4_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 8.8,
+          "spectralEfficiencyBitSymbol": 2.177525457
+        },
+        {
+          "name": "8PSK 2/3_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 8,
+          "spectralEfficiencyBitSymbol": 1.884958914
+        },
+        {
+          "name": "16APSK 3/4_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 12,
+          "spectralEfficiencyBitSymbol": 2.761633428
+        },
+        {
+          "name": "16APSK 8/9_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 13.9,
+          "spectralEfficiencyBitSymbol": 3.359924027
+        },
+        {
+          "name": "32APSK 5/6_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 14.9,
+          "spectralEfficiencyBitSymbol": 4.030589294
+        },
+        {
+          "name": "64APSK 4/5_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 17,
+          "spectralEfficiencyBitSymbol": 4.628253455
+        },
+        {
+          "name": "QPSK 1/4_S2|ON|N_[GetSatMicro]",
+          "esn0dB": -2,
+          "spectralEfficiencyBitSymbol": 0.478577009
+        },
+        {
+          "name": "8PSK 3/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 6.5,
+          "spectralEfficiencyBitSymbol": 1.692032869
+        },
+        {
+          "name": "QPSK 2/3_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 3.7,
+          "spectralEfficiencyBitSymbol": 1.260692951
+        },
+        {
+          "name": "8PSK 3/4_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 9,
+          "spectralEfficiencyBitSymbol": 2.077884959
+        },
+        {
+          "name": "32APSK 8/9_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 16.7,
+          "spectralEfficiencyBitSymbol": 4.159905938
+        },
+        {
+          "name": "32APSK 4/5_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 14.1,
+          "spectralEfficiencyBitSymbol": 3.866246814
+        },
+        {
+          "name": "QPSK 13/45_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": -0.9,
+          "spectralEfficiencyBitSymbol": 0.554293612
+        },
+        {
+          "name": "8PSK 5/6_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 10.3,
+          "spectralEfficiencyBitSymbol": 2.335119686
+        },
+        {
+          "name": "QPSK 5/6_S2|ON|N_[GetSatMicro]",
+          "esn0dB": 6,
+          "spectralEfficiencyBitSymbol": 1.615287543
+        },
+        {
+          "name": "QPSK 3/5_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 3,
+          "spectralEfficiencyBitSymbol": 1.131660693
+        },
+        {
+          "name": "QPSK 9/20_S2x|ON|N_[GetSatMicro]",
+          "esn0dB": 0.8,
+          "spectralEfficiencyBitSymbol": 0.867976684
+        },
+        {
+          "name": "32APSK 5/6_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 15.3,
+          "spectralEfficiencyBitSymbol": 3.84244562
+        },
+        {
+          "name": "QPSK 5/6_S2|ON|S_[GetSatMicro]",
+          "esn0dB": 5.9,
+          "spectralEfficiencyBitSymbol": 1.56176822
+        },
+        {
+          "name": "QPSK 1/3_S2|ON|S_[GetSatMicro]",
+          "esn0dB": -0.5,
+          "spectralEfficiencyBitSymbol": 0.615531661
+        }
+      ],
+      "rollOff": 1.05
+    }
+  },
+  "linkConfigPlanUID": "4bb6a6b2-4afb-4bfe-b7ed-ee4aa710031a",
+  "terminalMobileTarget": false
+}
