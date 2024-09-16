@@ -80,7 +80,7 @@ fn main() -> anyhow::Result<()>{
         sat_vec.push(sat_state);
     }   
 
-    for n in 0..=3600 * 24 {
+    for n in 0..=3600 * 24 * 30{
         for satellite in 0..=sat_vec.len()-1 {
             let sat_constants = sgp4::Constants::from_elements(&sat_vec[satellite].sat_elements).unwrap();
             let elapsed_time = n;
