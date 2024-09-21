@@ -24,30 +24,6 @@ fn main() -> anyhow::Result<()>{
        so much duplication. Not important at this time.
     */
 
-    /* IMG PROCESSING BLOCK */
-    let mut input_image = image::open("BigEarth.jpg").unwrap();
-    let (width, height) = input_image.dimensions();
-    let mut out: image::RgbaImage = image::ImageBuffer::new(width, height);
-    
-    // Create the output map.
-    for x_iter in 0..input_image.width() { 
-        for y_iter in 0..input_image.height() {
-            let color = input_image.get_pixel(x_iter,y_iter);
-            let pix_tuple = (x_iter, y_iter);
-
-            // if is_matched(&pix_vec, &pix_tuple) {
-            //     out.put_pixel(x_iter,y_iter,image::Rgba([255,0,0,255]));
-
-            //     continue;
-            // }
-            
-            out.put_pixel(x_iter,y_iter,color);
-        }
-    }
-    
-    /* END IMG PROCESSING BLOCK */
-
-    /* SAT PROP BLOCK */
     let file = File::open("src/tle2.txt").unwrap();
     let reader = BufReader::new(file); 
     let mut tle_string = String::from("");
@@ -63,14 +39,18 @@ fn main() -> anyhow::Result<()>{
     let gateway_color: [u8; 4] = [255,0,0,255]; // Red 0% transparent.
     let terminal_color: [u8; 4] = [0,255,0,255]; // Green 0% transparent.
 
+    let map_data = init_map();
+    let mut out = map_data.0;
+    let height = map_data.1;
+    let width = map_data.2;
+
     // Plot Observer point
     let (mut x, mut y) = gimme_xy(&terminal.geodetic_coords.longitude, &terminal.geodetic_coords.latitude, &height, &width);
-    let pix_vec = get_pixel_vector(&(x,y));
-
+    let pix_vec = get_pixel_vector(&width, &height, &(x,y), false);
+        
     for pixel in &pix_vec { 
         color_pixel(&mut out, pixel, &terminal_color);
     }
-
 
     let mut sat_vec: Vec<Satellite> = Vec::new();
     let sat_elements = parse_3les(&tle_string).unwrap();
@@ -80,7 +60,7 @@ fn main() -> anyhow::Result<()>{
         sat_vec.push(sat_state);
     }   
 
-    for n in 0..=3600 * 24 * 30{
+    for n in 0..=3600 * 24 * 7{
         for satellite in 0..=sat_vec.len()-1 {
             let sat_constants = sgp4::Constants::from_elements(&sat_vec[satellite].sat_elements).unwrap();
             let elapsed_time = n;
@@ -96,17 +76,17 @@ fn main() -> anyhow::Result<()>{
             
             // Update observer state to pull in new teme coords with respect to new epoch
             gateway_phoenix.update_state(&new_epoch);
-
             terminal.update_state(&new_epoch);
 
             // Set the look angle values
             gateway_phoenix.calculate_look_angle(&prediction, &new_epoch);
-
             terminal.calculate_look_angle(&prediction, &new_epoch);
-
+            
+            // Get sat path coordinates in x,y
             let (mut x, mut y) = gimme_xy(&sat_vec[satellite].geodetic_coordinates.longitude, &sat_vec[satellite].geodetic_coordinates.latitude, &height, &width);
-            let pix_vec = get_pixel_vector(&(x,y));
-        
+            let pix_vec = get_pixel_vector(&width, &height, &(x,y), true);
+            
+            // Color the pixels for the sat path.
             for pixel in &pix_vec { 
                 color_pixel(&mut out, pixel, &gateway_color);
             }
@@ -114,28 +94,13 @@ fn main() -> anyhow::Result<()>{
             if radians_to_degrees(&terminal.look_angle.elevation) >= 15.0 {
 
                 let (mut x, mut y) = gimme_xy(&sat_vec[satellite].geodetic_coordinates.longitude, &sat_vec[satellite].geodetic_coordinates.latitude, &height, &width);
-                let pix_vec = get_pixel_vector(&(x,y));
+                let pix_vec = get_pixel_vector(&width, &height, &(x,y), true);
             
                 for pixel in &pix_vec { 
                     color_pixel(&mut out, pixel, &terminal_color);
                 }
-
-                // println!("Datetime: {}", new_epoch);
-
-                // println!("Gateway  ---- Satellite: {}\t Elevation Angle: {:.6}\t Distance {:?}", sat_vec[satellite].sat_elements.norad_id, 
-                //                     satutil::radians_to_degrees(&gateway_phoenix.look_angle.elevation), gateway_phoenix.look_angle.distance);
-
-                // println!("Terminal ---- Satellite: {}\t Elevation Angle: {:.6}\t Distance {:?}", sat_vec[satellite].sat_elements.norad_id, 
-                //                     satutil::radians_to_degrees(&terminal.look_angle.elevation), terminal.look_angle.distance);
-
-                // println!("Satellite --- Lat: {}\tLon: {}\tAlt: {}\t\n", sat_vec[satellite].geodetic_coordinates.latitude, 
-                //                 sat_vec[satellite].geodetic_coordinates.longitude,
-                //                 sat_vec[satellite].geodetic_coordinates.altitude);
-                
-
             }
         }
-        // println!("\n");
     }
 
     out.save("out.png").unwrap();
@@ -167,34 +132,34 @@ pub fn color_pixel(image: &mut image::RgbaImage, pixel_coordinates: &(u32, u32),
     image.put_pixel(pixel_coordinates.0, pixel_coordinates.1, image::Rgba(*color));
 }
 
-pub fn get_pixel_vector(center_pixel: &(u32, u32)) -> Vec<(u32, u32)> {
+pub fn get_pixel_vector(width: &u32, height: &u32, center_pixel: &(u32, u32), is_sat: bool) -> Vec<(u32, u32)> {
+        let mut pixel_vector = vec![];
         let x = center_pixel.0;
         let y = center_pixel.1;
-        
-
-        // 9 pixel block
+    
         let center      = (x,y);
-        
-        // if x == img_dimensions.0 {
+        pixel_vector.push(center);
 
-        // }
+        // Only plot a fat pixel for observer locations
+        if is_sat == false {
+            let top         = if y < *height                {(x, y+1)}   else {(x,y)};
+            let bot         = if y > 0                      {(x, y-1)}   else {(x,y)};
+            let left        = if x > 0                      {(x-1, y)}   else {(x,y)};
+            let right       = if x < *width                 {(x+1, y)}   else {(x,y)};
+            let top_right   = if x < *width && y > 0        {(x+1, y-1)} else {(x,y)};
+            let top_left    = if x > 0 && y > 0             {(x-1, y-1)} else {(x,y)};
+            let bot_right   = if x < *width && y < *height  {(x+1, y+1)} else {(x,y)};
+            let bot_left    = if x > 0 && y < *height       {(x-1, y+1)} else {(x,y)};
 
-        // if y == img_dimensions.1 { 
-
-        // }
-
-        // let top         = (x, y+1);
-        // let bot         = (x, y-1);
-        // let left        = (x-1, y);
-        // let right       = (x+1, y);
-        // let top_right   = (x+1, y-1);
-        // let top_left    = (x-1, y-1);
-        // let bot_right   = (x+1, y+1);
-        // let bot_left    = (x-1, y+1);
-
-        // vec![center, top, bot, left, right, top_right, top_left, bot_right, bot_left]
-        vec![center]
-
+            pixel_vector.push(top); 
+            pixel_vector.push(left);
+            pixel_vector.push(right); 
+            pixel_vector.push(top_right);
+            pixel_vector.push(top_left);
+            pixel_vector.push(bot_right);
+            pixel_vector.push(bot_left);
+        }
+        pixel_vector
 }
 
 pub fn gimme_xy(lat: &f64, lon: &f64, height: &u32, width: &u32) -> (u32, u32) { 
@@ -205,4 +170,21 @@ pub fn gimme_xy(lat: &f64, lon: &f64, height: &u32, width: &u32) -> (u32, u32) {
     let y = (h as f64 * (90. - lon) / 180.).floor() as u32 ; //col
 
     (x,y)
+}
+
+fn init_map() -> (image::RgbaImage, u32, u32) {
+    let mut input_image = image::open("BigEarth.jpg").unwrap();
+    let (width, height) = input_image.dimensions();
+    let mut out: image::RgbaImage = image::ImageBuffer::new(width, height);
+    
+    // Create the output map.
+    for x_iter in 0..input_image.width() { 
+        for y_iter in 0..input_image.height() {
+            let color = input_image.get_pixel(x_iter,y_iter);
+            let pix_tuple = (x_iter, y_iter);
+            
+            out.put_pixel(x_iter,y_iter,color);
+        }
+    }
+    (out, height, width)
 }
