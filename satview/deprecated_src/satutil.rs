@@ -68,7 +68,7 @@ pub fn get_geodetic(propagation: &sgp4::Prediction, updated_epoch: &NaiveDateTim
         c = 1.0 / (1.0 - e2 * phi.sin() * phi.sin()).sqrt();
         lat = (propagation.position[2] + WGS84.ae * c * e2 * phi.sin()).atan2(r);
 
-        if fabs((lat - phi)) < 1e-10 || cnt >= 10 { 
+        if fabs(lat - phi) < 1e-10 || cnt >= 10 { 
             break;
         }
         cnt += 1;
